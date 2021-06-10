@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "xlocale": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp",
+        "charconv": "cpp",
+        "future": "cpp",
+        "memory": "cpp",
+        "sstream": "cpp",
+        "xhash": "cpp",
+        "xlocnum": "cpp"
+    }
+}
