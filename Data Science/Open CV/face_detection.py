@@ -1,4 +1,6 @@
-# Read a Video Stream from Camera(Frame by Frame)
+# we will use the haarcascade classifier for face detection
+# it is trained with lot of faces already
+# 
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -11,8 +13,14 @@ while True:
 		continue
 
 	faces = face_cascade.detectMultiScale(gray_frame ,1.3,5)
+	# scaling factor 1.3 - 1.6 is good, and number of neighbors
+	# this method is going to return x,y the cordinates and the width and height
+
+
 	for (x,y,w,h) in faces:
-		cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
+		cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),5)
+	
+
 
 	cv2.imshow("Video Frame",frame)
 	cv2.imshow("Gray Frame",gray_frame)
@@ -24,7 +32,7 @@ while True:
 
 
 cap.release()
-cv2.destroyALlWindows()
+cv2.destroyAllWindows()
 
 
 
