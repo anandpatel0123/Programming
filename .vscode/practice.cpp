@@ -2,20 +2,18 @@
 #include <unordered_map>
 using namespace std;
 
-void removeDuplicate(int arr[], int n){
-	unordered_map<int, bool> mp;
-
-	for (int i = 0; i < n; ++i) {
-	if (mp.find(arr[i]) == mp.end()) {
-		cout << arr[i] << " ";
-	}
-	mp[arr[i]] = true;
-	}
-}
-
 int main()
 {
-	int a[] = {1,2,3,4};
-	int i = ++a[0];
-	cout<<i;
+	int n;
+	cin>>n;
+	string s[n];
+	for (int i = 0;i<n;i++){
+		cin >> s[i];
+	}
+	int count = 0;
+	for (int i = 0;i<n;i++){
+		for (int j = 0;i<s[i].length();j++){
+			
+		}
+	}
 }
