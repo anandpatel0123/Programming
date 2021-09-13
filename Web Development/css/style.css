@@ -1,0 +1,173 @@
+/* Inline Styles
+An Inline CSS is used to apply a unique style to a single HTML element and 
+it uses the style attribute inside the HTML element as shown */
+/* 
+<body>
+	<h2 style="background:#ccc; color:#000; border: solid black 1px;"> Welcome To Fresco Play </h2>	
+</body */
+
+/* background: light grey (#ccc)
+color: Text or font is rendered in black color (#000 color)
+border: 1-pixel black border is applied on all four sides
+Inline styles have the highest precedence in a document. */
+
+
+
+/* Internal Styles
+An Internal CSS is the similar to Inline styles and it uses the style attribute 
+inside <head> tag.
+
+Following is a sample code on how to apply Internal styling to an element:
+
+<head>
+	<style>
+		h1 {color: green; font-size: 10px; }
+	    h2 {background:#ccc; color:#000; border: solid black 1px;}
+	    p  {color: black;}
+	</style>
+</head>
+<body>
+	<h2> Welcome to Fresco Play </h2>
+</body
+
+Whatever you write inside <body> of html page with <h1> tag, will be green in color 
+and its font-size will be 10px.
+
+Similarly <h2> and <p> styles are applied to their respective content in body. */
+
+
+/* External Style Sheets
+An external style sheet may be linked to an HTML document through HTML's LINK 
+element. The "LINK" tag is placed in the document <head> tag.
+
+LINK REL=stylesheet HREF="style.css" TYPE="text/css" MEDIA=screen
+Attribute TYPE is optional and is used to specify, media type for a Cascading Style 
+Sheet, allowing browsers to ignore style sheet types that they do not support.
+The MEDIA attribute is also optional and specifies the medium or media to which the 
+style sheet should be applied.
+External style sheets should NOT contain any HTML tags like HEAD or STYLE. The style
+ sheet should consist merely of style rules or statements. */
+
+/* Standard Selectors of CSS
+
+* - universal selector (selects all elements)
+e - type selector ( h2 element selector ) 
+e,e,e - compound selection ( name, id, class )
+.class - group selector ( p.class )
+#id - unique id selector */
+
+
+/* Pseudo Class Selectors
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus */
+
+/* 
+e:first-child
+e:last-child
+e:first-of-type
+e:last-of-type
+e:only-child
+e:only-of-type
+e:empty
+e:root 
+*/
+
+/* Pseudo Element Selectors
+A CSS "pseudo-element" selector is used to style specified parts of an element.
+
+For example, it can be used to:
+
+Style the first letter or line of an element
+Insert content before or after the content of an element */
+/* 
+e::before
+e::after
+e::first-line
+e::first-letter 
+*/
+
+/* 
+User Action Selector of CSS
+
+e:active 
+e:hover
+e:focus 
+*/
+
+
+/* 
+Link and Anchor Selectors of CSS
+
+e:target
+e:link 
+e:visited  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
