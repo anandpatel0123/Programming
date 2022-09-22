@@ -23,6 +23,5 @@ printAllParis(arr,n);
     // for(int x: arr){
     //     cout<<x<<endl;
     // }
-
     
 }
