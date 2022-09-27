@@ -20,8 +20,8 @@ int main(){
 
 printAllParis(arr,n);
     // forEach loop
-    // for(int x: arr){
-    //     cout<<x<<endl;
-    // }
+    for(int x: arr){
+        cout<<x<<endl;
+    }
     
 }

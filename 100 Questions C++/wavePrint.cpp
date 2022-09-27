@@ -59,7 +59,11 @@ void wavePrint(vector<vector<int> > v,int r,int c){
 
 
 int main(){
-    vector<vector<int> > v = {{1,9,4,10},{3,6,90,11},{2,30,85,72},{6,31,99,15}};
+    vector<vector<int> > v = {
+    {1,9,4,10},
+    {3,6,90,11},
+    {2,30,85,72},
+    {6,31,99,15}};
 
     //output 4 8 12 16 15 11 7 3 2 6 10 14 13 9 5 1
     int row = v.size();
